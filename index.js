@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   try {
     const response = await fetch(
-      `http://www.omdbapi.com/?apikey=12b05d9e&s=batman`
+      `https://www.omdbapi.com/?apikey=12b05d9e&s=batman`
     );
     const data = await response.json();
     console.log(data);
