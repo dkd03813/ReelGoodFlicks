@@ -1,0 +1,74 @@
+body, html {
+	height: 100%;
+	font-family: 'Poppins', sans-serif;
+	color: #333;
+	
+  }
+  
+  header {
+	background: #212529;
+	padding: 20px 0;
+  }
+  
+  h2.display-4 {
+	color: #17a2b8;
+  }
+  
+  nav {
+	background-color: #212529;
+	box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+  }
+  
+  .navbar-brand,
+  .btn-info {
+	color: #fff !important;
+  }
+  
+  .container {
+	max-width: 800px;
+  }
+  
+  input[type=text] {
+	box-shadow: none !important;
+	border: 1px solid #ced4da !important;
+  }
+  
+  .btn-info {
+	background-color: #17a2b8;
+	border-color: #17a2b8;
+  }
+  
+  .btn-info:hover {
+	background-color: #138496;
+	border-color: #118295;
+  }
+  
+  footer {
+	background: #212529;
+	color: #6c757d;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+  }
+  
+  .results .card {
+	background: #212529;
+	color: #fff;
+	box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+	margin-bottom: 30px;
+	transition: transform .2s;
+  }
+  
+  .results .card:hover {
+	transform: scale(1.02); 
+  }
+  
+  .results .card img {
+	height: 20vw;
+	object-fit: cover;
+  }
+  
+  .results .card .card-title {
+	color: #17a2b8;
+  }
+  
