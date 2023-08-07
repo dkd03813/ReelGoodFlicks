@@ -57,7 +57,7 @@ searchForm.addEventListener("submit", async (e) => {
       //the above try catch is almost like a landing page, always displaying anime movies
 
       //This one allows the users to choose the movies they want to display by appending the search term to the back of the url
-
+      //changing url here
       `https://www.omdbapi.com/?apikey=12b05d9e&s=${searchTerm}`
     );
     //once we have our response data, set a variable data to the request so that we can use it
