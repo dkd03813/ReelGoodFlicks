@@ -2,30 +2,30 @@ body, html {
 	height: 100%;
 	font-family: 'Poppins', sans-serif;
 	color: #333;
-	
+	background-color: #1c1f22;
   }
   
-  header {
+  header.p-3.bg-dark {
 	background: #212529;
-	padding: 20px 0;
+  }
+  
+  nav.navbar.navbar-expand-lg.navbar-light.bg-light.justify-content-center {
+	background-color: #212529 !important;
+	box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15) !important;
   }
   
   h2.display-4 {
 	color: #17a2b8;
   }
   
-  nav {
-	background-color: #212529;
-	box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
-  }
-  
-  .navbar-brand,
-  .btn-info {
-	color: #fff !important;
-  }
-  
   .container {
 	max-width: 800px;
+	margin: 0 auto; /* Center the container */
+  }
+  
+  .results .col { /* Center the columns */
+	display: flex;
+	justify-content: center;
   }
   
   input[type=text] {
@@ -52,7 +52,7 @@ body, html {
   }
   
   .results .card {
-	background: #212529;
+	background: #2a2e32;
 	color: #fff;
 	box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
 	margin-bottom: 30px;
@@ -70,5 +70,66 @@ body, html {
   
   .results .card .card-title {
 	color: #17a2b8;
+  }
+  
+  .pagination {
+	display: flex;
+	justify-content: center;
+	margin: 20px 0;
+  }
+  
+  .pagination button {
+	margin: 0 10px;
+	padding: 10px 20px;
+	background-color: #17a2b8; 
+	color: white;
+	border: 2px solid #17a2b8; 
+	cursor: pointer;
+	transition: background-color 0.3s ease, transform 0.2s ease; 
+  }
+  
+  .pagination button:disabled {
+	background-color: #ccc;
+	cursor: not-allowed;
+  }
+  
+  .pagination button:hover {
+	background-color: #138496; 
+	transform: scale(1.05); 
+  }
+  
+  .page-button {
+	border: 1px solid #ccc;
+	padding: 5px 10px;
+	margin: 2px;
+	cursor: pointer;
+	background-color: #f5f5f5;
+	transition: background-color 0.3s ease;
+  }
+  
+  .page-button.active, .page-button:hover {
+	background-color: #17a2b8;
+	color: #ffffff;
+  }
+  
+  .navbar-brand,
+  .btn-info {
+	color: #fff;
+  }
+  
+  footer.footer.mt-auto.py-3.bg-light {
+	background: #212529 !important;
+	color: #6c757d !important;
+  }
+  
+  .sticky-top.sticky-container {
+	background-color: rgba(33, 37, 41, 0.8); /* Semi-transparent dark background */
+	padding: 10px;
+	border-radius: 10px; /* Rounded corners */
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .condensed-form .form-control {
+	height: auto; /* Adjusted height */
   }
   
