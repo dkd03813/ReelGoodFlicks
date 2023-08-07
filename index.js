@@ -4,7 +4,7 @@
 
 const movieDiv = document.querySelector(".results");
 const searchForm = document.getElementById("search-form");
-const searchInput = document.querySelector("#search-form input"); 
+const searchInput = searchForm.elements[0]; // Updated line
 const clear = document.getElementById("clear");
 // console.dir(movieDiv);
 document.addEventListener("DOMContentLoaded", async () => {
